@@ -2,15 +2,12 @@
 #include <d3dx9.h>
 #include <tchar.h>
 #include <stdio.h>
+#include "Utils.h"
 
 #pragma comment(lib,"d3d9.lib")  
 #pragma comment(lib,"d3dx9.lib")  
 #pragma comment(lib,"dxguid.lib")  
 #pragma comment(lib, "winmm.lib")
-
-#define SCREEN_WIDTH  1024
-#define SCREEN_HEIGHT 768
-
 
 LRESULT CALLBACK WindowProcedure (HWND, UINT, WPARAM, LPARAM);
 bool Game_Init(HWND hwnd);
