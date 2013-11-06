@@ -8,8 +8,8 @@
 #pragma comment(lib,"dxguid.lib")  
 #pragma comment(lib, "winmm.lib")
 
-#define SCREEN_WIDTH  800
-#define SCREEN_HEIGHT 600
+#define SCREEN_WIDTH  1024
+#define SCREEN_HEIGHT 768
 
 
 LRESULT CALLBACK WindowProcedure (HWND, UINT, WPARAM, LPARAM);
